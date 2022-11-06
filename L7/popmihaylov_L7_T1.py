@@ -10,3 +10,9 @@ class Fibs:
         self.a, self.b = self.b, self.a + self.b
         return self.a
 
+
+fibs = Fibs()
+for f in fibs:
+    if f > 1000:
+        print(f)
+        break
